@@ -10,3 +10,5 @@ Content/FirstPersonCPP/
 Content/Geometry/
 Intermediate/
 Saved/
+*.opendb
+*.ipch
