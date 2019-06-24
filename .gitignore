@@ -1,0 +1,12 @@
+GAS.sln
+Content/ParagonShinbi/
+Binaries/
+.vs/GAS/v15/.suo
+*.db
+.vs/GAS/v15/Solution.VC.db-shm
+.vs/GAS/v15/Solution.VC.db-wal
+Content/FirstPerson/
+Content/FirstPersonCPP/
+Content/Geometry/
+Intermediate/
+Saved/
