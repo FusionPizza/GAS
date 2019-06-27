@@ -9,6 +9,8 @@
 #include "Abilities/GameplayAbility.h" 
 #include "CharacterBase.generated.h"
 
+class UAttributeSetBase;
+
 
 UCLASS()
 class GAS_API ACharacterBase : public ACharacter, public IAbilitySystemInterface
@@ -33,6 +35,10 @@ public:
 	//
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "CharacterBase")
 	UAbilitySystemComponent* AbilitySystemComp;
+	
+	//AttributeSet Base Component
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "CharacterBase")
+	UAttributeSetBase* AttributeSetBaseComp;
 
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const;
 
